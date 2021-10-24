@@ -1,22 +1,9 @@
 # Landing Page Project
 
-## Table of Contents
-
-<<<<<<< Updated upstream
-
-- [Instructions](#instructions)
-
-## Instructions
-
-The starter project has some HTML and CSS styling to display a static version of the Landing Page project. You'll need to convert this project from a static project to an interactive one. This will require modifying the HTML and CSS files, but primarily the JavaScript file.
-
-To get started, open `js/app.js` and start building out the app's functionality
-
-# For specific, detailed instructions, look at the project instructions in the Udacity Classroom.
-
 - [Design & content](#Design & content)
 - [html file](#html file)
 - [Navigation Bar](#Navigation Bar)
+- [Section Active State](#Section Active State)
 
 ## Design & content
 
@@ -31,7 +18,20 @@ For specific, detailed instructions, look at the project instructions in the Uda
 linking the js file.
 Creating two sections.
 Updating the contents.
+Creat an up button
 
 ## Navigation Bar
+
+I created the navigation bar menu and used the css style to get a smooth scrolling when clicking in link to section.
+
+## Section Active State
+
+I tried to make the sections active when scrolling & ancroing but it dosen't work.
+but i sucssed to make it active by clicking on the section.
+(need more time to figuer what's wrong).
+
+I tried also to make the sections collapsed, but i didn't have enough time too.
+
+Thanks,,
 
 > > > > > > > Stashed changes

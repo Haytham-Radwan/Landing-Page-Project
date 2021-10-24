@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Manipulating the DOM</title>
+    <title>Udacity Online Programs</title>
     <!-- Load Google Fonts -->
     <link
       href="https://fonts.googleapis.com/css?family=Fira+Sans:900|Merriweather&display=swap"
@@ -12,6 +12,7 @@
     />
     <!-- Load Styles -->
     <link href="css/styles.css" rel="stylesheet" />
+    <link rel="shortcut icon" href="favicon.ico" />
   </head>
   <body>
     <!-- HTML Follows BEM naming conventions 
@@ -24,7 +25,7 @@
     </header>
     <main>
       <header class="main__hero">
-        <h1>Udacity Programs</h1>
+        <h1>Udacity Online Programs</h1>
       </header>
       <!-- Each Section has an ID (used for the anchor) and 
     a data attribute that will populate the li node.
@@ -32,32 +33,35 @@
     The first section is set to active class by default -->
       <section id="section1" data-nav="Section 1" class="your-active-class">
         <div class="landing__container">
-          <h2>Data Scientist</h2>
-          <p>
-            From beginner to specialist, we provide a project-based approach
-            that spans all skill levels, and our content is co-created by more
-            than 300 industry experts, many of whom helped shape Silicon Valley.
-            And with new Nanodegree Programs coming out every quarter, we are
-            continuously on the cutting edge of digital skills. Regardless of
-            where you are in your digital transformation journey, we’ve got a
-            solution to address your needs and skills gaps.
-          </p>
+          <h2>Section 1: <em>Data Scientist</em></h2>
+          <div class="collaps">
+            <p>
+              From beginner to specialist, we provide a project-based approach
+              that spans all skill levels, and our content is co-created by more
+              than 300 industry experts, many of whom helped shape Silicon
+              Valley. And with new Nanodegree Programs coming out every quarter,
+              we are continuously on the cutting edge of digital skills.
+              Regardless of where you are in your digital transformation
+              journey, we’ve got a solution to address your needs and skills
+              gaps.
+            </p>
 
-          <p>
-            Build expertise in data manipulation, visualization, predictive
-            analytics, machine learning, and data science. With the skills you
-            learn in a Nanodegree program, you can launch or advance a
-            successful data career. Start acquiring valuable skills right away,
-            create a project portfolio to demonstrate your abilities, and get
-            support from mentors, peers, and experts in the field. We offer five
-            unique programs to support your career goals in the data science
-            field.
-          </p>
+            <p>
+              Build expertise in data manipulation, visualization, predictive
+              analytics, machine learning, and data science. With the skills you
+              learn in a Nanodegree program, you can launch or advance a
+              successful data career. Start acquiring valuable skills right
+              away, create a project portfolio to demonstrate your abilities,
+              and get support from mentors, peers, and experts in the field. We
+              offer five unique programs to support your career goals in the
+              data science field.
+            </p>
+          </div>
         </div>
       </section>
       <section id="section2" data-nav="Section 2">
         <div class="landing__container">
-          <h2>Front End Web Developer</h2>
+          <h2>Section 2:<em>Front End Web Developer</em></h2>
           <p>
             The goal of the Front End Web Developer Nanodegree program is to
             equip learners with the unique skills they need to build and develop
@@ -82,7 +86,7 @@
       </section>
       <section id="section3" data-nav="Section 3">
         <div class="landing__container">
-          <h2>Full Stack Web Developer</h2>
+          <h2>Section 3:<em>Full Stack Web Developer</em></h2>
           <p>
             The goal of the Full Stack Web Developer Nanodegree program is to
             equip learners with the unique skills they need to build
@@ -106,7 +110,7 @@
       </section>
       <section id="section4" data-nav="Section 4">
         <div class="landing__container">
-          <h2>Security Engineer</h2>
+          <h2>Section 4:<em>Security Engineer</em></h2>
           <p>
             You’ll master the foundational skills necessary to become a
             successful Security Engineer. This program will focus on how to
@@ -131,7 +135,7 @@
       </section>
       <section id="section5" data-nav="Section 5">
         <div class="landing__container">
-          <h2>Machine Learning Engineer</h2>
+          <h2>Section 5:<em>Machine Learning Engineer</em></h2>
           <p>
             Learn advanced machine learning techniques and algorithms and how to
             package and deploy your models to a production environment. Gain
@@ -154,6 +158,7 @@
           </p>
         </div>
       </section>
+      <button class="btn-up">Up &#8593;</button>
     </main>
     <footer class="page__footer">
       <p>&copy Udacity</p>
