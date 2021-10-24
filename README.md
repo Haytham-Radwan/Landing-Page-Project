@@ -4,6 +4,7 @@
 - [html file](#html file)
 - [Navigation Bar](#Navigation Bar)
 - [Section Active State](#Section Active State)
+  [References](#References)
 
 ## Design & content
 
@@ -34,4 +35,16 @@ I tried also to make the sections collapsed, but i didn't have enough time too.
 
 Thanks,,
 
-> > > > > > > Stashed changes
+## References
+
+scroll event
+https://developer.mozilla.org/en-US/docs/Web/API/Document/scroll_event
+
+Element.insertAdjacentHTML
+https://developer.mozilla.org/en-US/docs/Web/API/Element/insertAdjacentHTML
+
+EventTarget.addEventListener
+https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener
+
+JavaScript forEach
+https://www.freecodecamp.org/news/javascript-foreach-how-to-loop-through-an-array-in-js/
